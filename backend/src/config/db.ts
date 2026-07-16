@@ -10,6 +10,4 @@ const pool = new Pool({
   },
 });
 
-console.log(process.env.DB_URL)
-
 export default pool;
